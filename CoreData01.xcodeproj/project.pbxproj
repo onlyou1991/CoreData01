@@ -16,6 +16,8 @@
 		0CC527AA1D3879FB001A624A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC527A81D3879FB001A624A /* LaunchScreen.storyboard */; };
 		0CC527B51D3879FB001A624A /* CoreData01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC527B41D3879FB001A624A /* CoreData01Tests.m */; };
 		0CC527C01D3879FB001A624A /* CoreData01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC527BF1D3879FB001A624A /* CoreData01UITests.m */; };
+		0CC527D11D387A8C001A624A /* Dog+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC527CE1D387A8C001A624A /* Dog+CoreDataProperties.m */; };
+		0CC527D21D387A8C001A624A /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC527D01D387A8C001A624A /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		0CC527BB1D3879FB001A624A /* CoreData01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreData01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC527BF1D3879FB001A624A /* CoreData01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreData01UITests.m; sourceTree = "<group>"; };
 		0CC527C11D3879FB001A624A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC527CD1D387A8C001A624A /* Dog+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Dog+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0CC527CE1D387A8C001A624A /* Dog+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Dog+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0CC527CF1D387A8C001A624A /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		0CC527D01D387A8C001A624A /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 		0CC5278B1D3879F9001A624A = {
 			isa = PBXGroup;
 			children = (
+				0CC527CD1D387A8C001A624A /* Dog+CoreDataProperties.h */,
+				0CC527CE1D387A8C001A624A /* Dog+CoreDataProperties.m */,
+				0CC527CF1D387A8C001A624A /* Dog.h */,
+				0CC527D01D387A8C001A624A /* Dog.m */,
 				0CC527961D3879F9001A624A /* CoreData01 */,
 				0CC527B31D3879FB001A624A /* CoreData01Tests */,
 				0CC527BE1D3879FB001A624A /* CoreData01UITests */,
@@ -276,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC527D21D387A8C001A624A /* Dog.m in Sources */,
 				0CC5279F1D3879F9001A624A /* ViewController.m in Sources */,
+				0CC527D11D387A8C001A624A /* Dog+CoreDataProperties.m in Sources */,
 				0CC5279C1D3879F9001A624A /* AppDelegate.m in Sources */,
 				0CC527991D3879F9001A624A /* main.m in Sources */,
 				0CC527A51D3879FA001A624A /* CoreData01.xcdatamodeld in Sources */,
